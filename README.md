@@ -25,12 +25,15 @@ The purpose of the t-test is to compare the means of different populations and d
 The important number to look at here is `p-value` which is 0.06. Since this p-value is not below 0.05 (though it is really close!) we can say that our total population has the same mean as the goal. It would be valuable to look at the individual lots to see if our faulty lot, lot 3, is affecting our results here. Here are the individual lot summaries:
 
 Lot 1:
+
 ![lot 1](Resources/lot1_t_test.PNG)
 
 Lot 2:
+
 ![lot 2](Resources/lot2_t_test.PNG)
 
 Lot 3:
+
 ![lot 3](Resources/lot3_t_test.PNG)
 
 The first two lots have p-values much greater than 0.05 (1 and 0.61 respectively), but our troublesome lot 3 has a p-value of 0.04. This leads to the conclusion that lot 3's mean is not equal to 1500 PSI.
